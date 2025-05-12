@@ -2,7 +2,7 @@
 echo "Hello Codecademy!" - type in the terminal when execute
 ./script.sh                - to run the script from cmd or terminal
 read -p "Press enter to exit..."    if you want the pause to not directly close after showing
-
+bash -x hello.sh                  when you want to see in debug mode the file
 if [ $index -lt 5 ]
 then
   echo $index
