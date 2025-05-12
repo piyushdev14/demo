@@ -1,0 +1,19 @@
+#!/bin/bash    - indicates a bash file
+echo "Hello Codecademy!" - type in the terminal when execute
+./script.sh                - to run the script from cmd or terminal
+read -p "Press enter to exit..."    if you want the pause to not directly close after showing
+
+if [ $index -lt 5 ]
+then
+  echo $index
+else
+  echo 5
+fi
+
+Equal: -eq
+Not equal: -ne
+Less than or equal: -le
+Less than: -lt
+Greater than or equal: -ge
+Greater than: -gt
+Is null: -z
